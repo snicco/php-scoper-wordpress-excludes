@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e549d0a35861f2bb5ae7f92bd2a9a42",
+    "content-hash": "9c12513b76f43e3820e5af4c42f2e16c",
     "packages": [],
     "packages-dev": [
         {
@@ -65,16 +65,16 @@
         },
         {
             "name": "php-stubs/wordpress-stubs",
-            "version": "v5.8.3",
+            "version": "v5.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-stubs/wordpress-stubs.git",
-                "reference": "beb8715b9d56b44a59c360768d8be044e6058512"
+                "reference": "0fa8dd9a1bd2a1b60e85afc6c798fca1f599cc1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/beb8715b9d56b44a59c360768d8be044e6058512",
-                "reference": "beb8715b9d56b44a59c360768d8be044e6058512",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/0fa8dd9a1bd2a1b60e85afc6c798fca1f599cc1b",
+                "reference": "0fa8dd9a1bd2a1b60e85afc6c798fca1f599cc1b",
                 "shasum": ""
             },
             "replace": {
@@ -83,7 +83,9 @@
             "require-dev": {
                 "nikic/php-parser": "< 4.12.0",
                 "php": "~7.3 || ~8.0",
-                "php-stubs/generator": "^0.7.0"
+                "php-stubs/generator": "^0.8.0",
+                "phpdocumentor/reflection-docblock": "^5.3",
+                "phpstan/phpstan": "^1.2"
             },
             "suggest": {
                 "paragonie/sodium_compat": "Pure PHP implementation of libsodium",
@@ -104,9 +106,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
-                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v5.8.3"
+                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v5.9.0"
             },
-            "time": "2022-01-18T13:18:07+00:00"
+            "time": "2022-01-26T00:27:45+00:00"
         },
         {
             "name": "psr/container",
