@@ -1,4 +1,4 @@
-name: Update repo
+name: Automatic release
 
 on:
   workflow_dispatch:
@@ -25,5 +25,5 @@ jobs:
         git config --global user.email "calvin@snicco.de"
         git config --global user.name "Calvin Alkan"
 
-    - name: Run updater script
+    - name: Run update script
       run: ./update.sh
