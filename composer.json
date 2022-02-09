@@ -1,5 +1,5 @@
 {
-  "name": "sniccwp/php-scoper-wordpress-excludes",
+  "name": "sniccowp/php-scoper-wordpress-excludes",
   "description": "A list of all WordPress core classes, functions and constants. Meant to be used with the PHP-Scoper exclusion functionality.",
   "minimum-stability": "stable",
   "keywords": ["WordPress", "PHP-scoper", "php-scoper", "scoping WordPress"],
