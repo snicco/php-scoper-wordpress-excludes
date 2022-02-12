@@ -9,6 +9,8 @@ echo "Latest WordPress version: $lastest_version"
 
 if dpkg --compare-versions "$lastest_version" gt "$current_version";
 then
+	rm -rf generated/
+	mkdir generated
         composer require php-stubs/wordpress-stubs:"$lastest_version" --dev
         composer update php-stubs/wordpress-stubs
         composer install
