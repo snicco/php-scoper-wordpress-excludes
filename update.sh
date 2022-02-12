@@ -12,7 +12,8 @@ then
         composer require php-stubs/wordpress-stubs:"$lastest_version" --dev
         composer update php-stubs/wordpress-stubs
         composer install
-        vendor/bin/generate-excludes --json
+        vendor/bin/generate-excludes --json --exclude-empty
+	mv generated/exclude-wordpress-globals-constants.json generated/exclude-wordpress-constants.json
         git add -A
         git commit -a -m "Automatic release for WordPress: $lastest_version"
         git push
