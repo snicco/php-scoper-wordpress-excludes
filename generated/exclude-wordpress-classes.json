@@ -320,6 +320,8 @@
     "WP_REST_Autosaves_Controller",
     "WP_REST_Blocks_Controller",
     "WP_REST_Block_Directory_Controller",
+    "WP_REST_Block_Patterns_Controller",
+    "WP_REST_Block_Pattern_Categories_Controller",
     "WP_REST_Block_Renderer_Controller",
     "WP_REST_Block_Types_Controller",
     "WP_REST_Comments_Controller",
