@@ -22,7 +22,7 @@ jobs:
     
     - name: Setup Git
       run: |
-        git config --global user.email "calvin@snicco.de"
+        git config --global user.email "calvin@snicco.io"
         git config --global user.name "Calvin Alkan"
 
     - name: Run update script
