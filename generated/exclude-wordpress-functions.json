@@ -3489,7 +3489,7 @@
     "_upgrade_422_find_genericons_files_in_folder",
     "_upgrade_422_remove_genericons",
     "_upgrade_440_force_deactivate_incompatible_plugins",
-    "_upgrade_590_force_deactivate_incompatible_plugins",
+    "_upgrade_core_deactivate_incompatible_plugins",
     "_upgrade_cron_array",
     "_usort_by_first_member",
     "_usort_terms_by_ID",
