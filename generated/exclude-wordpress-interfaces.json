@@ -1,7 +1,8 @@
 [
-    "Requests_Auth",
-    "Requests_Hooker",
-    "Requests_Proxy",
-    "Requests_Transport",
-    "SimplePie_Cache_Base"
+    "SimplePie_Cache_Base",
+    "WpOrg\\Requests\\Auth",
+    "WpOrg\\Requests\\Capability",
+    "WpOrg\\Requests\\HookManager",
+    "WpOrg\\Requests\\Proxy",
+    "WpOrg\\Requests\\Transport"
 ]

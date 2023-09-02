@@ -3,7 +3,7 @@
 # Update repository from the latest release of php-stubs/wordpress-stubs
 #
 
-current_version="$(composer show --available --format=json sniccowp/php-scoper-wordpress-excludes | jq -r '."versions" | first(.[] | select(test("^v?\\d+\\.\\d+\\.\\d+$"))) | ltrimstr("v")')"
+current_version="$(composer show --available --format=json snicco/php-scoper-wordpress-excludes | jq -r '."versions" | first(.[] | select(test("^v?\\d+\\.\\d+\\.\\d+$"))) | ltrimstr("v")')"
 echo "Current version: ${current_version}"
 
 php_stubs_latest_version="$(composer show --available --format=json php-stubs/wordpress-stubs | jq -r '."versions" | first(.[] | select(test("^v?\\d+\\.\\d+\\.\\d+$"))) | ltrimstr("v")')"

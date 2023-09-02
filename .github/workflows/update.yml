@@ -22,8 +22,8 @@ jobs:
     
     - name: Setup Git
       run: |
-        git config --global user.email "calvin@snicco.de"
-        git config --global user.name "Calvin Alkan"
+        git config --global user.email "github-bot@snicco.io"
+        git config --global user.name "Snicco Bot"
 
     - name: Run update script
       run: ./update.sh

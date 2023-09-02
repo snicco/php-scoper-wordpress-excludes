@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26fc749cde626354a68eba412ea85d07",
+    "content-hash": "4827b4be015c71bc6e80c5bfc0e64129",
     "packages": [],
     "packages-dev": [
         {
@@ -106,31 +106,28 @@
         },
         {
             "name": "php-stubs/wordpress-stubs",
-            "version": "v6.0.0",
+            "version": "v6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-stubs/wordpress-stubs.git",
-                "reference": "ce909ee303ce4bb885e5009a739c19b461944166"
+                "reference": "adda7609e71d5f4dc7b87c74f8ec9e3437d2e92c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/ce909ee303ce4bb885e5009a739c19b461944166",
-                "reference": "ce909ee303ce4bb885e5009a739c19b461944166",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/adda7609e71d5f4dc7b87c74f8ec9e3437d2e92c",
+                "reference": "adda7609e71d5f4dc7b87c74f8ec9e3437d2e92c",
                 "shasum": ""
             },
-            "replace": {
-                "giacocorsiglia/wordpress-stubs": "*"
-            },
             "require-dev": {
-                "nikic/php-parser": "< 4.12.0",
-                "php": "~7.3 || ~8.0",
-                "php-stubs/generator": "^0.8.1",
+                "nikic/php-parser": "^4.13",
+                "php": "^7.4 || ~8.0.0",
+                "php-stubs/generator": "^0.8.3",
                 "phpdocumentor/reflection-docblock": "^5.3",
-                "phpstan/phpstan": "^1.2"
+                "phpstan/phpstan": "^1.10.12",
+                "phpunit/phpunit": "^9.5"
             },
             "suggest": {
                 "paragonie/sodium_compat": "Pure PHP implementation of libsodium",
-                "symfony/polyfill-php73": "Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions",
                 "szepeviktor/phpstan-wordpress": "WordPress extensions for PHPStan"
             },
             "type": "library",
@@ -147,9 +144,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
-                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.0.0"
+                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.3.0"
             },
-            "time": "2022-05-26T14:35:42+00:00"
+            "time": "2023-08-10T16:34:11+00:00"
         },
         {
             "name": "psr/container",
@@ -1094,5 +1091,5 @@
     "platform-dev": {
         "php": "^7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
