@@ -1,6 +1,6 @@
 #!/bin/bash
 
-current_version=$(curl https://api.github.com/repos/sniccowp/php-scoper-wordpress-excludes/tags -s | jq -r .[].name | grep '^[0-9]\.[0-9]*\.[0-9]*$' | sort -nr | head -n1)
+current_version=$(curl https://api.github.com/repos/snicco/php-scoper-wordpress-excludes/tags -s | jq -r .[].name | grep '^[0-9]\.[0-9]*\.[0-9]*$' | sort -nr | head -n1)
 echo "Current version: $current_version"
 
 tmp_version=$(curl https://api.github.com/repos/php-stubs/wordpress-stubs/tags -s | jq -r .[].name | grep '^v[0-9]\.[0-9]*\.[0-9]*$' | sort -nr | head -n1)
