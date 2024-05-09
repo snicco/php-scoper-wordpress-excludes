@@ -3466,6 +3466,7 @@
     "_block_template_render_title_tag",
     "_block_template_render_without_post_block_context",
     "_block_template_viewport_meta_tag",
+    "_build_block_template_object_from_post_object",
     "_build_block_template_result_from_file",
     "_build_block_template_result_from_post",
     "_c",
