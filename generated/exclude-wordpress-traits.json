@@ -1,0 +1,8 @@
+[
+    "WordPress\\AiClientDependencies\\Nyholm\\Psr7\\MessageTrait",
+    "WordPress\\AiClientDependencies\\Nyholm\\Psr7\\RequestTrait",
+    "WordPress\\AiClientDependencies\\Nyholm\\Psr7\\StreamTrait",
+    "WordPress\\AiClient\\Common\\Traits\\WithDataCachingTrait",
+    "WordPress\\AiClient\\Providers\\Http\\Traits\\WithHttpTransporterTrait",
+    "WordPress\\AiClient\\Providers\\Http\\Traits\\WithRequestAuthenticationTrait"
+]
