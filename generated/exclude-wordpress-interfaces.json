@@ -60,6 +60,5 @@
     "WpOrg\\Requests\\Capability",
     "WpOrg\\Requests\\HookManager",
     "WpOrg\\Requests\\Proxy",
-    "WpOrg\\Requests\\Transport",
-    "WP_Sync_Storage"
+    "WpOrg\\Requests\\Transport"
 ]
