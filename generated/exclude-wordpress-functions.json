@@ -4027,6 +4027,7 @@
     "_wp_image_editor_choose",
     "_wp_image_meta_replace_original",
     "_wp_iso_convert",
+    "_wp_is_template_path_allowed",
     "_wp_is_valid_utf8_fallback",
     "_wp_json_convert_string",
     "_wp_json_prepare_data",
